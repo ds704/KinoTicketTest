@@ -1,0 +1,62 @@
+#first-left{
+    background-color: green;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+#first-right{
+    background-color: red;
+    float: right;
+    width: 40%;
+    height: 100%;
+}
+#left-top{
+    height: 60%;
+    background-color: aqua;
+}
+#left-bottom{
+    height: 40%;
+    background-color: yellow;
+}
+#location{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+#left-top-right{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+    float: right;
+}
+#opening-hours{
+    height: 50%;
+    background-color: blueviolet;
+    width: 100%;
+}
+#contact{
+    height: 50%;
+    background-color: chocolate;
+    width: 100%;
+}
+
+.card{
+    width: auto;
+    height: 100%;
+    background-color: rgb(70, 0, 0);
+    color: rgb(202, 202, 202);
+}
+
+.map{
+    width: 100%;
+}
+
+.text-left{
+    float: left;
+    margin-left: 20px;
+}
+.text-right{
+    float: right;
+    margin-right: 20px;
+}

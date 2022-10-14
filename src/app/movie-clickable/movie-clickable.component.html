@@ -1,0 +1,16 @@
+<a routerLink="/detail/{{movie?.id}}">
+
+<mat-card class="main">
+    <mat-card-header class="header">
+        <mat-card-title >
+            <p class="title">{{movie?.title}}</p>
+        </mat-card-title>
+        <mat-card-subtitle class="title">{{movie?.genre}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="\assets\images\{{movie?.imageName}}"/>
+    <mat-card-content>
+        {{movie?.cast}}
+    </mat-card-content>
+</mat-card>
+
+</a>

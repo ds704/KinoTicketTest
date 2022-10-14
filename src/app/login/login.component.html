@@ -1,0 +1,26 @@
+<div fxLayoutAlign ="center center" fxFlexFill class="main-div">
+
+    <mat-card fxFlex="20">
+
+        <mat-toolbar color="primary" fxLayoutAlign="center center">Sign-In to Kino-App</mat-toolbar>
+
+        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form">
+            
+            <mat-form-field >
+              <input matInput placeholder="Username or Email" >
+            </mat-form-field>
+
+            <mat-form-field >
+                <input matInput type="password" placeholder="Passwort" >
+            </mat-form-field>
+            <mat-checkbox> Angemeldet bleiben </mat-checkbox>
+            <button mat-raised-button type="submit" class="login-button">Login</button>
+        </form>
+        
+
+        <mat-toolbar color="primary">Kein Account?<ul><li><a class = "registration_class" routerLink="/registration">Hier registrieren!</a></li></ul></mat-toolbar>
+
+          
+
+    </mat-card>
+</div>
